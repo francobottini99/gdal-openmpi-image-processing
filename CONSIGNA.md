@@ -14,7 +14,7 @@ El objetivo del presente trabajo práctico es que el estudiante sea capaz diseñ
 
 ![rgb](imgs/RGBcomposite.png)
 
-Se entrega un [archivo](https://drive.google.com/file/d/1uQYAZNlU2lIeRw2yqQuFdvkyCIhliZhy/view?usp=share_link) en formato _GeoTif_ de una imágen del satélite *Sentinel 2* sobre el centro de la Provincia de Córdoba. Dentro de ese archivo, se encuentran los 3 canales RGB junto muchos metadatos de georeferenciamiento y sobre la captura. Los canales se presentan en matrices monocromàticas, una por canal, que juntos forman la imagen RGB composite que se muestra.
+Se entrega un archivo en formato _GeoTif_ de una imágen del satélite *Sentinel 2* sobre el centro de la Provincia de Córdoba. Dentro de ese archivo, se encuentran los 3 canales RGB junto muchos metadatos de georeferenciamiento y sobre la captura. Los canales se presentan en matrices monocromàticas, una por canal, que juntos forman la imagen RGB composite que se muestra.
 
 Existen numerosos algorimos de procesamiento de imágenes basados en convoluciones de la imagen con un kernel. Se pide que implemente un algoritmo que aplique un filtro de borde ([edge filter](https://en.wikipedia.org/wiki/Kernel_(image_processing))), tal como se detalla a continuación. 
 

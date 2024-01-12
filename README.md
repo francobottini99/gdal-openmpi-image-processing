@@ -1,6 +1,9 @@
 # Paralelizacion con OpenMPI
 
-El programa se encarga de procesar un archivo de imagen en formato GeoTIFF y aplicar un filtro a cada banda de la imagen. El filtro utilizado es un kernel lineal que resalta los bordes de la imagen. Se hace uso de la biblioteca **GDAL** para leer y escribir archivos de imagen raster y de la biblioteca **OpenMP** para paralelizar el procesamiento.
+El programa se encarga de procesar un archivo de imagen en formato `GeoTIFF` y aplicar un filtro a cada banda de la imagen. El filtro utilizado es un kernel lineal que resalta los bordes de la imagen. Se hace uso de la biblioteca **GDAL** para leer y escribir archivos de imagen raster y de la biblioteca **OpenMP** para paralelizar el procesamiento.
+
+> [!IMPORTANT]
+> Puede encontrar las imagenes `GeoTIFF` utilizadas para las pruebas en el siguiente [link](https://drive.google.com/drive/folders/1em4_plY-dYmwc4ENqZqVOczFuFjKcWNJ?usp=drive_link).
 
 ### Autores:
 - **Bottini, Franco Nicolas**
@@ -51,7 +54,7 @@ Para realizar las pruebas de rendimiento se utilizo un equipo con las siguientes
 
 - GDAL: 3.7.0
 
-Se utilizo una imagen de 10980x10980 pixeles, con un tamaño de 361,7 MB. Se realizaron 30 ejecuciones de cada modo de procesamiento sobre la misma imagen y se calculo el tiempo promedio de ejecución. Los resultados obtenidos fueron los siguientes:
+Se utilizo una imagen de 10980x10980 pixeles, con un tamaño de 345 MB. Se realizaron 30 ejecuciones de cada modo de procesamiento sobre la misma imagen y se calculo el tiempo promedio de ejecución. Los resultados obtenidos fueron los siguientes:
 
 | N° | Serie (s) | Paralelo (s) | N° | Serie (s) | Paralelo (s) |
 | -- | --------- | ------------ | -- | --------- | ------------ |
