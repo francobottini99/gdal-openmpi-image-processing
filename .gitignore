@@ -1,0 +1,9 @@
+Sentinel2_20230208T140711_10m.tif
+/.vscode
+/bin
+/CMakeFiles
+/data
+Makefile
+cmake_install.cmake
+CMakeCache.txt
+out.tif
